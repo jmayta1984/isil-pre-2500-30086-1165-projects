@@ -29,7 +29,7 @@ public class Main {
             double creditosCurso = scanner.nextDouble();
             
             Curso curso = new Curso(nombreCurso, codigoCurso, creditosCurso);
-            
+      
             estudiante.inscribirCurso(curso);
 
         }
