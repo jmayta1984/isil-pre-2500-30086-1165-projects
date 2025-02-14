@@ -33,11 +33,13 @@ public class Main {
             estudiante.inscribirCurso(curso);
 
         }
-        scanner.close();
 
         estudiante.registrarNotasFinales();
 
         estudiante.imprimirPonderado();
+
+        scanner.close();
+
 
     }
 }
