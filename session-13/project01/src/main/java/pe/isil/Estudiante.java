@@ -23,6 +23,6 @@ public class Estudiante extends Persona {
 
     @Override
     public String toString() {
-        return super.toString() + " carrera-" + carrera;
+        return super.toString() + " - carrera|" + carrera;
     }
 }
