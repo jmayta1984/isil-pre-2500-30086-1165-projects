@@ -10,5 +10,9 @@ public class Main {
         System.out.println(estudiante.toString());
         estudiante.estudiar();
 
+        EstudianteInternacional estudianteInternacional = new EstudianteInternacional("Mario", 20, "Marketing", "Francia");
+        System.out.println(estudianteInternacional.toString());
+        estudianteInternacional.estudiar();
+
     }
 }
